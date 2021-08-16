@@ -1,0 +1,45 @@
+.header_wrapper {
+  border-bottom: 1px solid #e5e9f2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  li {
+    margin: 0 16px;
+  }
+  li:first-child {
+    margin-left: 0;
+  }
+}
+
+.logo{
+    width: 260px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  li {
+    margin: 0 7px;
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+}

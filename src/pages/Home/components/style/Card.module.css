@@ -1,0 +1,33 @@
+.card {
+  background: #0096ff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0 26px;
+  color: white;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.card__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 30px;
+}
+
+.card h3 {
+  margin: 4px 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+/*# sourceMappingURL=Card.module.css.map */

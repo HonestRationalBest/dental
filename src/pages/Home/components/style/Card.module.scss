@@ -1,0 +1,23 @@
+.card {
+  background: #0096ff;
+  flex: 1 1 auto;
+  margin: 0 26px;
+  color: white;
+  border-radius: 20px;
+  padding: 16px;
+  &__icon{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+  }
+  h3 {
+    margin: 4px 0;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
