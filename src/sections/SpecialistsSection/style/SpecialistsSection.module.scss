@@ -1,0 +1,54 @@
+.specialists {
+  margin-top: 100px;
+  &__title {
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+    }
+  }
+  &__card_wrapper {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -13px;
+  }
+  &__card {
+    width: 100%;
+    margin: 0 13px;
+    img {
+      width: 100%;
+    }
+  }
+  &_text {
+    text-align: center;
+    text-transform: uppercase;
+    h4 {
+      margin: 16px 0 0 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+    }
+    p {
+      margin-top: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      color: #0096ff;
+    }
+  }
+  &_contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    margin: 0 auto;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

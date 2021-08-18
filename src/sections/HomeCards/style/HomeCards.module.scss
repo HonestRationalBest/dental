@@ -1,0 +1,9 @@
+.homeCards {
+    padding-top: 70px;
+    &__body{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 -26px;
+    }
+  }

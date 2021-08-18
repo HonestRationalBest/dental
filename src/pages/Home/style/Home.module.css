@@ -44,7 +44,7 @@
 }
 
 .offer__body button {
-  background: #0096FF;
+  background: #0096ff;
   color: white;
   font-weight: 700;
   font-size: 20px;
@@ -63,31 +63,14 @@
 
 .intermediate_section {
   margin-top: 100px;
-  background: #F0F6FB;
+  background: #f0f6fb;
   text-align: center;
-  color: #0096FF;
+  color: #0096ff;
   font-size: 28px;
   padding: 55px 0px;
 }
 
 .intermediate_section span {
   font-weight: bold;
-}
-
-.cards {
-  padding-top: 70px;
-}
-
-.cards__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 -26px;
 }
 /*# sourceMappingURL=Home.module.css.map */

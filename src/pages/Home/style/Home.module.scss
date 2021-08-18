@@ -1,4 +1,4 @@
-.main{
+.main {
   position: relative;
 }
 
@@ -8,11 +8,11 @@
   margin: 0 auto;
 }
 
-.offer{
+.offer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 130px; 
+  padding-top: 130px;
 }
 
 .offer__body {
@@ -29,15 +29,15 @@
     margin: 16px 0px;
     line-height: 42px;
   }
-  &_suggest{
+  &_suggest {
     width: 525px;
     font-size: 18px;
     line-height: 32px;
     margin-top: 0;
   }
 
-  button{
-    background: #0096FF;
+  button {
+    background: #0096ff;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -48,33 +48,21 @@
   }
 }
 
-.blue_ellipse{
+.blue_ellipse {
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
 }
 
-.intermediate_section{
+.intermediate_section {
   margin-top: 100px;
-  background: #F0F6FB;
+  background: #f0f6fb;
   text-align: center;
-  color: #0096FF;
+  color: #0096ff;
   font-size: 28px;
   padding: 55px 0px;
-  span{
+  span {
     font-weight: bold;
   }
-}
-
-.cards{
-  padding-top: 70px;
-}
-
-
-.cards__body{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 -26px;
 }

@@ -1,0 +1,79 @@
+.services_section {
+  font-style: normal;
+  line-height: 64px;
+}
+
+.services_section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.services_section h2 span {
+  font-weight: normal;
+}
+
+.services_section__cards_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+}
+
+.services_section_card {
+  width: 300px;
+}
+
+.services_section_card h3 {
+  font-style: normal;
+  font-size: 24px;
+}
+
+.services_section_card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100%;
+  line-height: 26px;
+}
+
+.services_section_explore_arrow {
+  color: #0096ff;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services_section_explore_arrow p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.services_section_explore_all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services_section_explore_all h3 {
+  margin-right: 18px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=ServicesSection.module.css.map */

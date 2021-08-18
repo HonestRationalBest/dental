@@ -1,0 +1,52 @@
+.services_section {
+  font-style: normal;
+  line-height: 64px;
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    span {
+      font-weight: normal;
+    }
+  }
+  &__cards_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+  &_card {
+    width: 300px;
+    h3 {
+      font-style: normal;
+      font-size: 24px;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      width: 100%;
+      line-height: 26px;
+    }
+  }
+  &_explore_arrow {
+    color: #0096ff;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+  &_explore_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      margin-right: 18px;
+      font-size: 20px;
+    }
+  }
+}
